@@ -1,0 +1,16 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C01534;}
+	.st1{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M50,5c24.8,0,45,20.2,45,45S74.8,95,50,95S5,74.8,5,50S25.2,5,50,5 M50,0C22.4,0,0,22.4,0,50s22.4,50,50,50
+	s50-22.4,50-50S77.6,0,50,0L50,0z"></path>
+<g>
+	<path class="st1" d="M25.5,26.1v48h29.3v-48C54.8,26.1,25.5,26.1,25.5,26.1z M37.8,66.4h-8.2v-8.2h8.2V66.4z M37.8,54.2h-8.2V46
+		h8.2V54.2z M37.8,42h-8.2v-8.2h8.2V42z M50.8,66.4h-8.2v-8.2h8.2V66.4z M50.8,54.2h-8.2V46h8.2V54.2z M50.8,42h-8.2v-8.2h8.2V42z"></path>
+	<path class="st1" d="M56,38.5v6.8h3.7v5.5H56v2.7h3.7V59H56v2.7h3.7v5.5H56V74h18.3V38.5H56z M68.5,67.3H63v-5.5h5.5V67.3z
+		 M68.5,59H63v-5.5h5.5V59z M68.5,50.7H63v-5.5h5.5V50.7z"></path>
+	<rect x="31.8" y="23.9" class="st1" width="16.9" height="2.1"></rect>
+	<rect x="56" y="36.3" class="st1" width="12.4" height="2.1"></rect>
+</g>
+</svg>

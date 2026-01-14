@@ -1,0 +1,9 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C01534;}
+	.st1{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M50,5c24.8,0,45,20.2,45,45S74.8,95,50,95S5,74.8,5,50S25.2,5,50,5 M50,0C22.4,0,0,22.4,0,50s22.4,50,50,50
+	s50-22.4,50-50S77.6,0,50,0L50,0z"></path>
+<polygon class="st1" points="57.8,40 75.3,42.5 62.7,54.9 65.7,72.3 50.1,64.1 34.5,72.3 37.4,54.9 24.7,42.7 42.2,40.1 50,24.2 "></polygon>
+</svg>
