@@ -29,6 +29,20 @@ Template: astra
 	display: none!important;
 }
 
+.fl-rich-text ul,
+.pp-hover-card-description-inner ul {
+    list-style: none;
+    margin: 0 0 2.3em 2.5em;
+}
+
+.fl-rich-text ul li:before,
+.pp-hover-card-description-inner ul li:before {
+    font-family: FontAwesome;
+    content: '\f005'; /* Choose the icon you want for default lists */
+    margin: 0 10px 0 -25px;
+    color: var(--accent-color);
+}
+
 :root {
     --accent-color: #B4962C;
     --secondary-color: #005A80;
@@ -229,6 +243,7 @@ blockquote cite {
     font-family: "new-hero", system, sans-serif!important;
     color: var(--medium-gray)!important;
     font-weight: 400!important;
+    font-size: 12px;
 }
 
 .goog-te-combo {
@@ -246,6 +261,7 @@ header .fl-row-content-wrap {
     background-color: var(--light)!important;
     border-radius: 4px;
     border-left: 20px solid var(--accent-color);
+    box-shadow: var(--box-shadow);
 }
 
 header .sub-menu {
@@ -256,6 +272,10 @@ header .fl-menu a {
     font-weight: 600;
     font-size: 16px!important;
 }
+
+ header .menu-heading > div > a {
+    color: var(--accent-color)!important;
+ }
 
 header .fl-menu .sub-menu a {
     line-height: 20px;
@@ -297,11 +317,11 @@ header .fl-button .fl-button-text {
 /* Target the mega menu wrapper */
 
 .header_mega-menu ul.fl-menu-horizontal li.mega-menu > ul.sub-menu {
-  width: 600px!important; /* Adjust to desired width */
+  width: 50vw!important; /* Adjust to desired width */
   max-width: 90vw;
   position: absolute !important; /* Position it absolutely */
   top: 100% !important; /* Directly under the parent item */
-  left: 50% !important; /* Center horizontally */
+  left: 30% !important; /* Center horizontally */
   transform: translateX(-50%) !important;
   z-index: 9999;
   background: var(--light); /* Optional: background */
@@ -1536,6 +1556,37 @@ footer .sub-footer .fl-rich-text * {
     display: none!important;
 }
 
+.pp-hover-card-description {
+    width: 100%!important;
+    text-align: left!important;
+}
+
+.pp-hover-card-description a {
+    color: var(--accent-color)!important;
+}
+
+.pp-hover-card-content .pp-hover-card-description {
+    border-right: 0!important;
+}
+
+.pp-hover-card-title-wrap {
+    width: 100%!important;
+}
+
+.pp-hover-card-title-wrap * {
+    font-weight: 800!important;
+    font-size: 26px!important;
+    padding-bottom: 9px!important;
+    color: var(--light)!important;
+}
+
+.pp-hover-card-description-inner h2, 
+.pp-hover-card-description-inner h3, 
+.pp-hover-card-description-inner h4, 
+.pp-hover-card-description-inner h5 {
+    color: var(--light)!important;
+} 
+
 
 @media screen and (max-width: 1200px) {
     h2.lg-heading,
@@ -1639,4 +1690,6 @@ footer .sub-footer .fl-rich-text * {
 @media screen and (max-width: 1200px) {
 
 }
+
+
 
