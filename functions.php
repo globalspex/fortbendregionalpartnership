@@ -134,12 +134,16 @@ function bb_clickable_row_script() {
     ?>
     <script>
     document.addEventListener('DOMContentLoaded', function() {
+        // Don't run if BB editor class is present
+        if (document.body.classList.contains('fl-builder-edit')) {
+            return;
+        }
+        
         const row = document.getElementById('clickable-row');
         if (row) {
             row.addEventListener('click', function(e) {
-                // Prevent if a link or button inside is clicked
                 if (e.target.closest('a, button')) return;
-                window.location.href = 'https://fortbendcounty.com/why-fort-bend/our-cities/';
+                window.location.href = 'https://gxtesting.com/fortbend/why-fort-bend/our-cities/';
             });
         }
     });
