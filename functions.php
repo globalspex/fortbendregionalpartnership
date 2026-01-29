@@ -170,3 +170,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <?php }
 add_action('astra_body_top', 'google_tag_manager_body');
+
+/**
+ * Enqueue stylesheet with auto-versioning
+ */
+function my_theme_enqueue_styles() {
+    wp_enqueue_style(
+        'main-style',
+        get_stylesheet_uri(),
+        array(),
+        filemtime(get_stylesheet_directory() . '/style.css') // Auto version
+    );
+    
+    // For other CSS files
+    wp_enqueue_style(
+        'custom-style',
+        get_template_directory_uri() . '/css/custom.css',
+        array(),
+        filemtime(get_template_directory() . '/css/custom.css')
+    );
+}
+add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
